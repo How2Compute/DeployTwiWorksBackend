@@ -19,7 +19,7 @@
   },
   "addons": [
     {
-      "plan": "cleardb"
+      "plan": "heroku-postgresql"
     }
   ],
   "stack": "container"
