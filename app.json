@@ -6,7 +6,7 @@
   "logo": "https://cdn1.epicgames.com/ue/product/Thumbnail/TwiWorks_thumb-284x284-50c22110b913a58690b1e4bd73a6927a.png",
   "success_url": "/twitch_callback",
   "scripts": {
-    "postdeploy": "echo $DATABASE_URL"
+    "postdeploy": "echo ${DATABASE_URL}"
   },
   "env": {
     "TWITCH_CLIENT_ID": {
