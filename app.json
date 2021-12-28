@@ -10,16 +10,10 @@
   },
   "env": {
     "TWITCH_CLIENT_ID": {
-      "description": "Your Twitch Application Client ID",
-      "generator": "secret"
+      "description": "Your Twitch Application Client ID"
     },
     "TWITCH_CLIENT_SECRET": {
-      "description": "Your Twitch Application Client ID",
-      "generator": "secret"
-    },
-    "TWITCH_REDIRECT_URI": {
-      "description": "Your Twitch Application Redirect URL",
-      "generator": "secret"
+      "description": "Your Twitch Application Client ID"
     },
     "TWITCHWORKS_HEROKU": {
       "description": "Required Key",
