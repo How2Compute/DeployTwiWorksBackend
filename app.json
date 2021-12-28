@@ -33,5 +33,6 @@
         "version": "11"
       }
     }
-  ]
+  ],
+  "stack": "container"
 }
