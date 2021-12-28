@@ -5,6 +5,9 @@
   "repository": "https://gitlab.com/HowToCompute/tw-heroku",
   "logo": "https://cdn1.epicgames.com/ue/product/Thumbnail/TwiWorks_thumb-284x284-50c22110b913a58690b1e4bd73a6927a.png",
   "success_url": "/twitch_callback",
+  "scripts": {
+    "postdeploy": "psql $DATABASE_URL -c \"CREATE TABLE TwitchUsers ( ID SERIAL NOT NULL, Token varchar(255) NOT NULL, Key varchar(255) NOT NULL, Username varchar(255), OAuthToken varchar(255), TwitchID varchar(255), RefreshToken varchar(255), PRIMARY KEY(ID), UNIQUE (Token) );\""
+  },
   "env": {
     "TWITCH_CLIENT_ID": {
       "description": "Your Twitch Application Client ID"
