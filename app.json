@@ -3,14 +3,13 @@
   "description": "TwiWorks Backend - for Heroku.",
   "website": "https://how2compute.cf/",
   "repository": "https://gitlab.com/HowToCompute/tw-heroku",
-  "logo": "https://cdn1.epicgames.com/ue/product/Thumbnail/TwiWorks_thumb-284x284-50c22110b913a58690b1e4bd73a6927a.png",
   "success_url": "/twitch_callback",
   "env": {
     "TWITCH_CLIENT_ID": {
       "description": "Your Twitch Application Client ID"
     },
     "TWITCH_CLIENT_SECRET": {
-      "description": "Your Twitch Application Client ID"
+      "description": "Your Twitch Application Client Secret"
     },
     "TWITCHWORKS_HEROKU": {
       "description": "Required Key",
